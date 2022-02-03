@@ -1,0 +1,184 @@
+/* Main Section */
+section.main {
+  position: absolute;
+  width: calc(100vw - 344px);
+  height: 85vh;
+  top: 0;
+  right: 0;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 20px 40px rgba(73, 115, 235, 0.1);
+  margin-top: 22px;
+  margin-right: 34px;
+  overflow-y: auto;
+  overflow-x: none;
+}
+
+@media (max-width: 991px) {
+  section.main {
+    height: calc(100vh - 150px);
+    width: calc(100vw - 52px);
+    margin: 130px 26px 26px;
+  }
+}
+.payment-instructions {
+  padding: 24px;
+}
+.payment-instructions .payment-instructions-details h2 {
+  color: #20252D;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+.payment-instructions .payment-info{
+  margin-top: 24px;
+  padding: 28.5px 34px;
+  background: #FFFFFF;
+  border: 1px solid rgba(73, 115, 235, 0.17);
+  border-radius: 20px;
+}
+.payment-instructions .payment-info p{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.payment-instructions .payment-info .last-p{
+  margin-bottom: 23px;
+}
+.payment-instructions .payment-info p span {
+  font-weight: 600;
+}
+.payment-instructions .payment-info .price {
+  color:#4973EB;
+  font-weight: 600;
+  font-size: 26px;
+  margin-top: 8px;
+  padding-top: 5px;
+  border-top: 2px solid rgba(73, 115, 235, 0.17);;
+}
+.payment-instructions .payment-info a , 
+.payment-instructions .payment-warning .fees {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding: 15.5px 0;
+  background: #70B997;
+  border-radius: 16px;
+  margin-top: 30px;
+}
+
+.payment-instructions .payment-warning{
+  padding: 38px 32px 48px 33px;
+  background: #EFF0F7;
+  border-radius: 16px;
+  margin-top: 24px;
+}
+@media(min-width:991px){
+  .payment-instructions .payment-warning{
+    width: 47%;
+  }
+  section.main .sec {
+    margin-bottom: 50px;
+  }
+}
+
+
+.payment-instructions .payment-warning .warn {
+  padding: 19px 15px;
+  padding-bottom: 23px;
+  background: #FBF5D5;
+  border: 1px solid #915803;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.payment-instructions .payment-warning .warn p {
+  margin: 0;
+  margin-left: 14px !important;
+}
+.payment-instructions .payment-warning p {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+}
+.payment-instructions .ticket-number {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0 29px;
+}
+@media(max-width:1200px){
+  .payment-instructions .payment-info a{
+    padding: 15.5px 30px;
+  }
+  .payment-instructions .payment-info .price{
+    font-size: 25px;
+  }
+  .payment-instructions .payment-warning p{
+    font-size: 12px;
+  }
+}
+@media(max-width:991px){
+  .payment-instructions .ticket-number {
+    padding: 0;
+    font-size: 22px;
+  }
+  .payment-instructions .payment-info{
+    padding: 24px 34px;
+  }
+}
+@media(max-width:992px){
+  .payment-instructions .payment-warning{
+    padding: 0px 32px 12px 33px;
+    background-color: transparent;
+  }
+  .payment-instructions .payment-info .price{
+    font-size: 21px;
+  }
+  .payment-instructions .payment-warning .warn p{
+    font-size: 17px;
+  }
+  .payment-instructions .payment-warning p{
+    font-size: 17px;
+  }
+  .payment-instructions .payment-info a, .payment-instructions .payment-warning .fees{
+    font-size: 17px;
+    padding: 11.5px 34px;
+  }
+  .payment-instructions .payment-warning .p-1{
+    font-size: 17px;
+  }
+  
+}
+@media(max-width:768px){
+  .payment-instructions .payment-warning{
+    padding: 0px 32px 12px 33px;
+    background-color: transparent;
+  }
+  .payment-instructions .payment-info .price{
+    font-size: 17px;
+  }
+  .payment-instructions .payment-warning .warn p{
+    font-size: 10px;
+  }
+  .payment-instructions .payment-warning p{
+    font-size: 10px;
+  }
+  .payment-instructions .payment-info a, .payment-instructions .payment-warning .fees{
+    font-size: 14px;
+    padding: 11.5px 34px;
+  }
+  .payment-instructions .payment-warning .p-1{
+    font-size: 10px;
+  }
+  
+}
+.hr {
+  width: 100%;
+  height: 1px;
+  background-color: #f2f4f9;
+}
+
+/* Main Section */

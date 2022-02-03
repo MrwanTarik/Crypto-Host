@@ -1,0 +1,228 @@
+/* Main Section */
+section.main {
+  position: absolute;
+  height: 85vh;
+  width: calc(100vw - 344px);
+  overflow-x: auto;
+  overflow-x: hidden;
+  top: 0;
+  right: 0;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 20px 40px rgba(73, 115, 235, 0.1);
+  margin-top: 22px;
+  margin-right: 34px;
+}
+@media (max-width: 991px) {
+  section.main {
+    height: calc(100vh - 150px);
+    width: calc(100vw - 52px);
+    margin: 130px 26px 26px;
+    border-radius:35px ;
+  }
+}
+section.main .main-content {
+  padding: 30px 32px;
+}
+section.main .main-content .main-head {
+  margin-bottom: 18px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f2f4f9;
+}
+
+section.main .main-content .main-head {
+  padding-left: 0;
+}
+section.main .main-content .main-head h1 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #20252d;
+}
+section.main .main-content .main-head a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 23px;
+  color: white;
+  background-color: #70B997;
+  border-radius: 16px;
+}
+section.main .main-content .main-head a img{
+  margin-right: 10px;
+}
+@media (max-width:991px) {
+  section.main .main-content .main-head h1 {
+    font-size: 22px;
+  }
+  section.main .main-content .main-head a {
+    padding: 14px 11px;
+  }
+}
+/* table section */
+.table {
+  min-width: 1038px;
+}
+#table {
+  padding: 0;
+}
+
+.table-image-container {
+  width: 130px;
+  height: 40px;
+}
+
+.table .fix-hight-row {
+  height: 20px;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-style: initial !important;
+}
+.table th {
+  color: #6e7191;
+  font-weight: 500;
+  font-size: 14px;
+  vertical-align: middle;
+}
+.table-data-4 {
+  position: relative;
+}
+
+
+.table-data-4 .tooltiptext{
+  position: absolute;
+  background: #54575D;
+  visibility: hidden;
+  color: white;
+  border-radius: 3px;
+  padding:6px 14px;
+  font-size: 10px;
+  top: 25px;
+  left: 10px;
+  z-index: 3000;
+  transition: 0.1s ;
+}
+.table-data-4:hover .tooltiptext {
+  visibility: visible;
+}
+.table tr td {
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+  vertical-align: middle;
+}
+.table-btn a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 2px 8px;
+  color: white;
+  display: inline-block;
+  background-color: #00bf66;
+  border-radius: 100px;
+}
+.table-btn-expired a{
+  background-color: #D9534F;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+#table .table-1::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #f2f4f9;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+.dropdown-item {
+  padding: 0;
+  color: #4973eb;
+}
+#menu {
+  margin-top: 15px !important;
+  padding: 16px 52px 16px 15px;
+  padding-bottom: 7px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: translate3d(-217px, 22px, 0px) !important;
+}
+#menu li {
+  margin-bottom: 10px;
+}
+#menu li:last-of-type a {
+  color: #D9534F;
+}
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #4973eb;
+  text-decoration: none;
+  background-color: #e9ecef;
+}
+#table tr td .table tr td p {
+  padding: 25px 30px;
+  margin: 0;
+}
+
+.table tr td span {
+  color: #12233b;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+  --bs-table-accent-bg: #fff;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  --bs-table-accent-bg: #f4f8ff;
+}
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0056fd;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 100px;
+}
+::-webkit-scrollbar:horizontal {
+  height: 6px;
+}
+
+section.main .server-componenet-responsive {
+  margin-top: 25px;
+  padding: 26px 36px;
+  background: #ffffff;
+  border: 1px solid #c7c7c7;
+  box-shadow: 15px 15px 35px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+}
+
+section.main .main-content .server-componenet p {
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+}
+section.main .main-content p span {
+  color: #6e7191;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 15px;
+}
+section.main .main-content p {
+  font-weight: normal;
+  font-size: 14px;
+  color: black;
+}
+/* Main Section */

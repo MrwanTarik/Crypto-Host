@@ -1,0 +1,201 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+header {
+    height:100vh;
+    background-color:#4973EB;
+    background-repeat: no-repeat;
+    -webkit-clip-path: polygon(0 0, 0 86%, 100% 0);
+    clip-path: polygon(0 0, 0 86%, 100% 0);
+}
+header .side-bar {
+    margin: 0 114px 0 0;
+    padding: 49px 0 0;
+}
+header .side-bar .logo ,
+header .side-bar .nav-pills li {
+    padding-left: 34px;
+}
+header .side-bar .nav-pills li.active {
+    position: relative;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: transparent;
+}
+header .side-bar .logo span {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 39px;
+    padding-bottom: 19px;
+}
+header .side-bar .nav-link {
+    margin-bottom: 20px;
+}
+header .side-bar .nav-link img ,
+header .side-bar .nav-link svg {
+    width: 24px;
+    margin-right: 15px;
+}
+header .side-bar .nav-link {
+    padding: 0 0 30px;
+    margin: 0;
+    width: 161px;
+}
+header .side-bar .nav-item:nth-of-type(3) .nav-link {
+    padding: 0 0 34px;
+    margin: 0 0 32px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+}
+header .side-bar .nav-link{
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+header .side-bar li::after{
+    display: none;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: calc(100% - 30px);
+    background-color: #FFD100;
+}
+header .side-bar .nav-item:nth-of-type(3)::after {
+    height: calc(100% - 66px);
+}
+header .side-bar li.active::after {
+    display: block;
+}
+header .side-bar li.footer-mb {
+    display: none;
+}
+header .mobile-nav {
+    padding: 20px 0;
+    margin: 0;
+}
+header .mobile-nav #toggle {
+    padding: 12px;
+    background-color: white;
+    border-radius: 0px 9px 9px 0px;
+}
+header .mobile-nav .lang {
+    padding: 10px;
+    background-color: white;
+    border-radius: 9px 0px 0px 9px;
+}
+header .mobile-nav li:nth-of-type(3) a {
+    color: #4973EB;
+    font-weight: 500;
+    font-size: 14px;
+}
+header .mobile-nav  li a {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+    text-decoration: none;
+}
+header .mobile-nav .dropdown-menu {
+    inset: unset !important;
+    position: absolute;
+    top: -2px !important;
+    padding: 25px 56px;
+    box-shadow: 15px 15px 35px rgb(0 0 0 / 17%);
+    border-radius: 25px 0px 0px 25px; 
+    right: -2px !important;
+    margin: 0px;
+    transform: none !important;
+    
+}
+header .mobile-nav .dropdown-menu li{
+    padding-top:  0;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #D1D4E7;
+}
+header .mobile-nav .dropdown-menu li:last-of-type {
+    padding-top:  0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+@media (max-width:991px) {
+    header {
+        clip-path: none;
+    }
+    header .overlay {
+        display: none;
+        position:absolute;
+        top: 0;
+        height: 100vh;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.6);
+        z-index: 1;
+    }
+    header .side-bar {
+        background-color: white;
+        border-radius: 0px 35px 35px 0px;
+        height: inherit;
+        position: absolute;
+        top: 0;
+        left: -75%;
+        z-index: 99;
+        transition: all 0.5s;
+    }
+    header .side-bar .nav-link  {
+        color: #555555;
+    }
+    header svg path {
+        fill: #315FDD;
+    }
+    header .side-bar .logo span {
+        color: #4973EB;
+        
+    border-bottom: 3px #F2F4F9 solid;
+    } 
+    header .side-bar .nav-item:nth-of-type(3) .nav-link {
+        border-bottom-color: #F2F4F9;
+    }
+    header .side-bar ul.footer {
+        position: absolute;
+        bottom: 0;
+        padding: 0;
+    }
+    header .side-bar li.footer-mb {
+        display: block;
+        margin-bottom: 22px;
+        padding: 0;
+    }
+    header .side-bar li.footer-mb a ,
+    header .side-bar li.footer-mb {
+        color: #7A7F8D;
+    }
+}
+
+/*Footer */
+footer {
+    position: absolute;
+    bottom: 33px;
+    right: 0;
+    width: calc(100vw - 344px);
+    margin-right: 34px;
+}
+footer ul {
+    margin: 0;
+}
+footer ul li a ,
+footer .rights {
+    color: #7A7F8D;
+    font-size: 12px;
+    line-height: 18px;
+}
+footer ul li:first-of-type {
+    margin-right: 37px;
+}
+@media (max-width: 991px) {
+    footer {
+        display: none !important;
+    }
+}
+/*Footer */

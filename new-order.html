@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Main css  -->
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/new-order.css" />
+  </head>
+  <body>
+    <header>
+      <div class="overlay"></div>
+      <ul
+        class="
+          mobile-nav
+          list-unstyled
+          d-flex
+          justify-content-between
+          align-items-center
+          d-lg-none
+        "
+      >
+        <li id="toggle">
+          <a href="#">
+            <img src="images/toggler.png" alt="toggler" />
+          </a>
+        </li>
+        <li>
+          <a href="index.html">Cryptohost</a>
+        </li>
+        <li class="lang">
+          <a class="dropdown-toggle" id="dropdownMenuLink" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="true" href="#">EN</a>
+          
+          <ul class="dropdown-menu dropdown-menu-lg-end" data-bs-popper="static" aria-labelledby="dropdownMenuLink"  data-popper-placement="bottom-start">
+            <li><a class="dropdown-item" href="#"><img class="me-3" src="images/en.png" alt=""> English</a></li>
+            <li><a class="dropdown-item" href="#"><img class="me-3" src="images/fr.png" alt=""> Francais</a></li>
+            <li><a class="dropdown-item" href="#"><img class="me-3" src="images/gr.png" alt=""> DEUTSCH </a></li>
+            
+          </ul>
+        </li>
+      </ul>
+      <div
+        class="d-lg-flex flex-column flex-shrink-0 text-white side-bar"
+        style="width: 276px"
+      >
+        <a href="index.html" class="d-flex logo align-items-center text-decoration-none">
+          <span class="">Cryptohost</span>
+        </a>
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item">
+            <a href="server.html" class="nav-link" aria-current="page">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g opacity="0.8" clip-path="url(#clip0_15_467)">
+                  <path
+                    d="M21 16.9999H10V18.9999C10 19.2652 9.89464 19.5195 9.70711 19.707C9.51957 19.8946 9.26522 19.9999 9 19.9999C8.73478 19.9999 8.48043 19.8946 8.29289 19.707C8.10536 19.5195 8 19.2652 8 18.9999V16.9999H6V18.9999C6 19.2652 5.89464 19.5195 5.70711 19.707C5.51957 19.8946 5.26522 19.9999 5 19.9999C4.73478 19.9999 4.48043 19.8946 4.29289 19.707C4.10536 19.5195 4 19.2652 4 18.9999V16.9999H3C2.20435 16.9999 1.44129 17.316 0.87868 17.8786C0.31607 18.4412 0 19.2043 0 19.9999C0 20.7956 0.31607 21.5587 0.87868 22.1213C1.44129 22.6839 2.20435 22.9999 3 22.9999H21C21.7956 22.9999 22.5587 22.6839 23.1213 22.1213C23.6839 21.5587 24 20.7956 24 19.9999C24 19.2043 23.6839 18.4412 23.1213 17.8786C22.5587 17.316 21.7956 16.9999 21 16.9999Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M21 9H10V11C10 11.2652 9.89464 11.5196 9.70711 11.7071C9.51957 11.8946 9.26522 12 9 12C8.73478 12 8.48043 11.8946 8.29289 11.7071C8.10536 11.5196 8 11.2652 8 11V9H6V11C6 11.2652 5.89464 11.5196 5.70711 11.7071C5.51957 11.8946 5.26522 12 5 12C4.73478 12 4.48043 11.8946 4.29289 11.7071C4.10536 11.5196 4 11.2652 4 11V9H3C2.20435 9 1.44129 9.31607 0.87868 9.87868C0.31607 10.4413 0 11.2044 0 12C0 12.7956 0.31607 13.5587 0.87868 14.1213C1.44129 14.6839 2.20435 15 3 15H21C21.7956 15 22.5587 14.6839 23.1213 14.1213C23.6839 13.5587 24 12.7956 24 12C24 11.2044 23.6839 10.4413 23.1213 9.87868C22.5587 9.31607 21.7956 9 21 9Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M21 1.00006H10V3.00006C10 3.26528 9.89464 3.51963 9.70711 3.70717C9.51957 3.8947 9.26522 4.00006 9 4.00006C8.73478 4.00006 8.48043 3.8947 8.29289 3.70717C8.10536 3.51963 8 3.26528 8 3.00006V1.00006H6V3.00006C6 3.26528 5.89464 3.51963 5.70711 3.70717C5.51957 3.8947 5.26522 4.00006 5 4.00006C4.73478 4.00006 4.48043 3.8947 4.29289 3.70717C4.10536 3.51963 4 3.26528 4 3.00006V1.00006H3C2.20435 1.00006 1.44129 1.31613 0.87868 1.87874C0.31607 2.44135 0 3.20441 0 4.00006C0 4.79571 0.31607 5.55877 0.87868 6.12138C1.44129 6.68399 2.20435 7.00006 3 7.00006H21C21.7956 7.00006 22.5587 6.68399 23.1213 6.12138C23.6839 5.55877 24 4.79571 24 4.00006C24 3.20441 23.6839 2.44135 23.1213 1.87874C22.5587 1.31613 21.7956 1.00006 21 1.00006Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_15_467">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              Servers
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a href="orders.html" class="nav-link">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g opacity="0.8" clip-path="url(#clip0_15_473)">
+                  <path
+                    d="M19 4H17.9C17.6679 2.87141 17.0538 1.85735 16.1613 1.12872C15.2687 0.40009 14.1522 0.00145452 13 0L11 0C9.8478 0.00145452 8.73132 0.40009 7.83875 1.12872C6.94618 1.85735 6.3321 2.87141 6.1 4H5C3.67441 4.00159 2.40356 4.52888 1.46622 5.46622C0.528882 6.40356 0.00158786 7.67441 0 9L0 12H24V9C23.9984 7.67441 23.4711 6.40356 22.5338 5.46622C21.5964 4.52888 20.3256 4.00159 19 4ZM8.184 4C8.39008 3.41709 8.77123 2.91209 9.2753 2.55409C9.77937 2.19608 10.3817 2.00256 11 2H13C13.6183 2.00256 14.2206 2.19608 14.7247 2.55409C15.2288 2.91209 15.6099 3.41709 15.816 4H8.184Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M13 14.9999C13 15.2652 12.8946 15.5195 12.7071 15.707C12.5196 15.8946 12.2652 15.9999 12 15.9999C11.7348 15.9999 11.4804 15.8946 11.2929 15.707C11.1054 15.5195 11 15.2652 11 14.9999V13.9999H0V18.9999C0.00158786 20.3255 0.528882 21.5964 1.46622 22.5337C2.40356 23.471 3.67441 23.9983 5 23.9999H19C20.3256 23.9983 21.5964 23.471 22.5338 22.5337C23.4711 21.5964 23.9984 20.3255 24 18.9999V13.9999H13V14.9999Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_15_473">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+
+              Orders
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="ticket.html" class="nav-link">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g opacity="0.8" clip-path="url(#clip0_15_478)">
+                  <path
+                    d="M8 0C6.67441 0.00158786 5.40356 0.528882 4.46622 1.46622C3.52888 2.40356 3.00159 3.67441 3 5V23C3.00014 23.1819 3.04989 23.3603 3.14388 23.516C3.23788 23.6717 3.37256 23.7989 3.53344 23.8837C3.69431 23.9686 3.87529 24.008 4.05688 23.9976C4.23847 23.9873 4.4138 23.9276 4.564 23.825L6.67 22.386L8.776 23.825C8.94239 23.9389 9.13934 23.9999 9.341 23.9999C9.54266 23.9999 9.73961 23.9389 9.906 23.825L12.006 22.386L14.106 23.825C14.2725 23.9392 14.4696 24.0003 14.6715 24.0003C14.8734 24.0003 15.0705 23.9392 15.237 23.825L17.337 22.387L19.437 23.824C19.5871 23.9263 19.7623 23.9857 19.9436 23.996C20.125 24.0062 20.3057 23.9669 20.4664 23.8821C20.627 23.7974 20.7616 23.6706 20.8556 23.5151C20.9496 23.3597 20.9996 23.1816 21 23V5C20.9984 3.67441 20.4711 2.40356 19.5338 1.46622C18.5964 0.528882 17.3256 0.00158786 16 0L8 0ZM14 14H8C7.73478 14 7.48043 13.8946 7.29289 13.7071C7.10536 13.5196 7 13.2652 7 13C7 12.7348 7.10536 12.4804 7.29289 12.2929C7.48043 12.1054 7.73478 12 8 12H14C14.2652 12 14.5196 12.1054 14.7071 12.2929C14.8946 12.4804 15 12.7348 15 13C15 13.2652 14.8946 13.5196 14.7071 13.7071C14.5196 13.8946 14.2652 14 14 14ZM17 9C17 9.26522 16.8946 9.51957 16.7071 9.70711C16.5196 9.89464 16.2652 10 16 10H8C7.73478 10 7.48043 9.89464 7.29289 9.70711C7.10536 9.51957 7 9.26522 7 9C7 8.73478 7.10536 8.48043 7.29289 8.29289C7.48043 8.10536 7.73478 8 8 8H16C16.2652 8 16.5196 8.10536 16.7071 8.29289C16.8946 8.48043 17 8.73478 17 9Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_15_478">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+
+              Tickets
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              <img src="images/Group 43.png" alt="" /> Marwan
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g opacity="0.8">
+                  <path
+                    d="M23.1172 9.87889L18.1672 4.92889L16.0462 7.04989L19.5002 10.4999H6.61719V13.4999H19.5002L16.0502 16.9499L18.1712 19.0709L23.1212 14.1209C23.6831 13.5578 23.9983 12.7946 23.9975 11.9991C23.9968 11.2036 23.6801 10.4409 23.1172 9.87889V9.87889Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M9.99386 20.4999C9.99386 20.6326 9.94118 20.7597 9.84741 20.8535C9.75364 20.9473 9.62647 20.9999 9.49386 20.9999H3.50586C3.37325 20.9999 3.24607 20.9473 3.15231 20.8535C3.05854 20.7597 3.00586 20.6326 3.00586 20.4999V3.53095C3.00586 3.39834 3.05854 3.27116 3.15231 3.17739C3.24607 3.08362 3.37325 3.03095 3.50586 3.03095H9.49386C9.62647 3.03095 9.75364 3.08362 9.84741 3.17739C9.94118 3.27116 9.99386 3.39834 9.99386 3.53095V8.34495H12.9939V3.53095C12.9925 2.60309 12.6234 1.71362 11.9673 1.05753C11.3112 0.401441 10.4217 0.0322675 9.49386 0.0309448H3.50586C2.57801 0.0322675 1.68854 0.401441 1.03245 1.05753C0.376356 1.71362 0.00718205 2.60309 0.00585938 3.53095V20.4999C0.00585938 21.4282 0.374608 22.3184 1.03099 22.9748C1.68736 23.6312 2.5776 23.9999 3.50586 23.9999H9.49386C10.4221 23.9999 11.3124 23.6312 11.9687 22.9748C12.6251 22.3184 12.9939 21.4282 12.9939 20.4999V15.6829H9.99386V20.4999Z"
+                    fill="white"
+                  />
+                </g>
+              </svg>
+              Logout
+            </a>
+          </li>
+          <li>
+            <ul class="footer">
+              <li class="nav-item footer-mb">
+                <a class="text-decoration-none" href="#">Privacy Policy</a>
+              </li>
+              <li class="nav-item footer-mb">
+                <a class="text-decoration-none" href="#"
+                  >Terms and Conditions</a
+                >
+              </li>
+              <li class="nav-item footer-mb">Cryptohost 2021</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Main Section -->
+    <section class="main new-order">
+      <div class="row new-order-details">
+        <div
+          class="
+            mb-2
+            col
+            d-flex
+            justify-content-between justify-content-lg-start
+            align-items-center
+          "
+        >
+          <a href="#" class="go-back">
+            <img class="img-fluid" src="images/angle-left 1.png" alt=""
+          /></a>
+          <span class="ticket-number">New Order</span>
+          <div
+            class="
+              profile-exit
+              d-flex
+              flex-grow-1
+              justify-content-end
+              d-lg-none
+            "
+          >
+            <img src="images/Vector.png" alt="" />
+          </div>
+        </div>
+        <div class="hr mt-2"></div>
+        <div class="order-details">
+          Order details
+          <h2 class="plan-details">Plan Details</h2>
+        </div>
+      </div>
+      <div class="row plan-detail justify-content-around">
+        <div class="col-lg-6 first-col mt-3">
+          <div class="d-flex justify-content-between">
+            <h3 class="pe-2">VPS BTC Pay Server</h3>
+            <span class="subscribe h">$8/Month</span>
+          </div>
+          <div class="hr mb-3"></div>
+          <div class="specs">
+            <h6><span>100 GB</span> SSD Storage</h6>
+            <h6><span>4 MB </span> ECC RAM</h6>
+            <h6>2 cores</h6>
+            <h6>250 Mbps</h6>
+          </div>
+          <div class="hr my-4 d-lg-none"></div>
+          <span class="subscribe d-lg-none">$8/Month</span>
+        </div>
+        <div class="col-lg-5 second-col mt-3 h">
+          <h4 class="py-2">total</h4>
+          <h3 class="price d-block pb-2"><span>8 USD</span> (0.0001563 Btc)</h3>
+          <a href="payment-instruction.html" class="btn col-12 buy py-lg-3"> Create order and pay </a>
+        </div>
+      </div>
+      <div class="row plan-detail">
+        <h2 class="plan-details ms-3">Plan Details</h2>
+        <form action="">
+          <div class="form-floating col-12 col-lg-5 mb-3">
+            <select
+              class="form-select"
+              id="floatingSelect"
+              aria-label="Floating label select example"
+              style="background-image: url(images/Forward.png);"
+            >
+              <option selected>CentOS1- AMD64</option>
+              <option value="1">CentOS2- AMD64</option>
+              <option value="2">CentOS3- AMD64</option>
+            </select>
+            <label for="floatingSelect">OS</label>
+          </div>
+          <div class="form-floating col-12 col-lg-5 mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="floatingInput"
+              placeholder="test.server.com"
+              value="test.server.com"
+              disabled
+            />
+            <label for="floatingInput">Domain Name</label>
+          </div>
+        </form>
+        <div class="col-lg-5 d-lg-none second-col mt-3">
+          <h4 class="py-2">total</h4>
+          <h3 class="price d-block pb-2"><span>8 USD</span> (0.0001563 Btc)</h3>
+          <a  href="payment-instruction.html" class="btn col-12 buy py-3"> Create order and pay </a>
+        </div>
+      </div>
+    </section>
+    <!-- Main Section -->
+    <!-- Footer -->
+    <footer class="d-none d-lg-flex justify-content-between align-items-center">
+      <div class="rights">Cryptohost 2021</div>
+      <ul
+        class="
+          terms
+          list-unstyled
+          d-flex
+          justify-content-between
+          align-items-center
+        "
+      >
+        <li><a class="text-decoration-none" href="#">Privacy Policy</a></li>
+        <li>
+          <a class="text-decoration-none" href="#">Terms and Conditions</a>
+        </li>
+      </ul>
+    </footer>
+    <!-- Footer -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
